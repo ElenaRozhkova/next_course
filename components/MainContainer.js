@@ -11,6 +11,7 @@ const MainContainer = ({ children, keywords }) => {
             <div className="navbar">
                 <A href={"/"} text='Startseite'></A>
                 <A href={"/users"} text='Users'></A>
+                <A href={"/todos"} text='Todos'></A>
             </div>
             <div>
                 {children}
